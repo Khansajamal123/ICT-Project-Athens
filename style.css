@@ -1,0 +1,197 @@
+/*ID*/
+
+#contact{
+    margin-left: 100px;
+}
+#navigation{
+    position: fixed;
+    background-color: rgb(92, 64, 51);
+    width: 100%;
+    top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 2px 10px rgb(92, 64, 51)
+}
+/*Direct*/
+nav img{
+    height: 90px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    display: inline;
+}
+#hero {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:    #FFFEFA ;
+    text-color:dark vrown;	
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: light brown;
+}
+button{
+  padding: 8px 16px;
+  font-size: x-large;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+}
+button:hover{
+    padding: 8px 16px;
+    font-size: x-large;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:#ffffff;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgb(255, 255, 255)
+  } 
+.btn{
+    display: flex;
+    gap: 30px;
+}
+
+.gallery{
+    background-color: white;
+}
+.gallery img{
+    border-radius: 10px;
+    height: 340px;
+    width: 440px;
+}
+.main-home {
+    margin-top: 94px;
+    background-image: url(greece1.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative; 
+}
+.main-home h4 {
+    position: absolute; 
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: rgb(59, 9, 9);
+    font-size: 30px;
+    padding: 20px;
+}
+.abt{
+    margin-top: 120px;
+}
+.pic{
+    width: 95%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:   #FFFEFA ;	
+    text-align: center; 
+    margin-top: 50px;
+ }
+ .histy{
+    background-color: aliceblue;
+ }
+.attraction{
+    max-width: 950px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:   #FFFEFA ;	
+    margin-top: 105px;
+}
+.attraction img{
+    width: 50%;
+    float: right;
+    border-radius: 20px;
+    height: 250px;
+    width: 40%;
+}
+
+.attraction h1{
+    text-align: center;
+    font-size: 100;
+    text-decoration: underline;
+}
+.main-content{
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;  
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color:  #FFFEFA ;	
+    text-align: center; 
+    margin-top: 50px;  
+}
+
+}
+section#contact {
+    background-color: #FFFEFA;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid #ddd;  /* Border added to the section */
+    border-radius: 8px;  /* Optional rounded corners */
+}
+
+.contact-info {
+    margin-top: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    border: 1px solid #ccc;  /* Border added to contact-info */
+    border-radius: 8px;  /* Optional rounded corners */
+}
+
+.contact-form, .contact-details {
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;  /* Border added to both form and details */
+}
